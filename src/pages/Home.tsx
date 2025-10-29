@@ -5,7 +5,7 @@ import { skills } from "@/data/skills.ts";
 export default function Home({ showCursor }: { showCursor: boolean }) {
 
   const [text, setText] = useState("");
-  const fullText = "./gradlew clean --no-build-cache build";
+  const fullText = "현 리드데이터시스템즈(리드코프) 재직중";
 
   useEffect(() => {
     let index = 0;
