@@ -4,7 +4,7 @@ import Home from "@/pages/Home";
 import Career from "@/pages/Career";
 import Projects from "@/pages/Projects";
 import Contact from "@/pages/Contact";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 function App() {
   const [showCursor, setShowCursor] = useState(true);
