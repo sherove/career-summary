@@ -1,10 +1,6 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { getColorClasses } from "@/components/utils/getColorClasses";
 import { skills } from "@/data/skills.ts";
-
-interface HomeProps {
-  showCursor: boolean;
-}
 
 export default function Home({ showCursor }: { showCursor: boolean }) {
 

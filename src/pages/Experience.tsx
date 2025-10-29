@@ -1,4 +1,3 @@
-import React from "react";
 import { experiences } from "@/data/experiences.ts";
 import { getColorClasses } from "@/components/utils/getColorClasses";
 
